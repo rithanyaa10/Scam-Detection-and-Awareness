@@ -1,0 +1,131 @@
+/* Body background */
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("image/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Full height container */
+.main-container {
+    height: 100vh;
+}
+
+/* Left section */
+.left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Scam image */
+.scam-image {
+    width: 80%;
+    max-width: 450px;
+}
+
+/* Right section */
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign up box */
+.signup-box {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+}
+
+/* Title */
+.title {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+.form-label {
+    color: white;
+    font-weight: 500;
+}
+
+/* Input fields */
+.form-control {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.form-control::placeholder {
+    color: #cccccc;
+}
+
+.form-control:focus {
+    background-color: black;
+    color: white;
+    border-color: white;
+    box-shadow: none;
+}
+
+/* Sign up button */
+.signup-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.signup-btn:hover {
+    background-color: #222;
+}
+
+/* Login text */
+.login-text {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+/* OR divider */
+.or-text {
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Google button */
+.google-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.google-btn:hover {
+    background-color: #222;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .left-section {
+        display: none;
+    }
+
+    .signup-box {
+        margin: 20px;
+    }
+}
